@@ -13,9 +13,9 @@ import time
 import json
 
 # Default server configuration (matches main.py default)
-SERVER_HOST = "localhost"
-SERVER_PORT = 8080
-BASE_URL = f"http://{SERVER_HOST}:{SERVER_PORT}"
+
+BASE_URL = ""
+# eg ::: BASE_URL= "https://ide-bbfeeedbcaf332013968deeebdeeafecbone.premiumproject.examly.io/proxy/8080/"
 
 class TestPDFRAGPipelineAPI:
     """Test class for PDF RAG Pipeline API endpoints using HTTP requests to running server"""
